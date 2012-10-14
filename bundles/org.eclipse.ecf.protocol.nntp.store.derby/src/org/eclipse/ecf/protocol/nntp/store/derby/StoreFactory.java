@@ -35,7 +35,6 @@ public class StoreFactory implements IStoreFactory {
 		return store;
 	}
 
-	@Override
 	public void deleteStore() throws StoreException {
 		if (store == null)
 			throw new StoreException("Cannot delete. Store is null.");

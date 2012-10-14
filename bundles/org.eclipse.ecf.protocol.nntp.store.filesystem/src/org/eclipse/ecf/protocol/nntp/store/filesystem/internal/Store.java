@@ -659,7 +659,7 @@ public class Store implements IStore {
 				.toArray(new String[files.size()]);
 		Arrays.sort(sortedFiles, new Comparator() {
 			public int compare(Object arg0, Object arg1) {
-				return ((String) arg0).compareTo(arg1) * -1;
+				return ((String) arg0).compareTo((String)arg1) * -1;
 			}
 		});
 

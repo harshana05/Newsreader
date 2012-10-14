@@ -56,9 +56,9 @@ Multiple newsgroups can be added.
 
    <element name="newsgroup">
       <complexType>
-         <sequence>
+         <!--sequence>
             <element ref="enablement"/>
-         </sequence>
+         </sequence-->
          <attribute name="name" type="string" use="required">
             <annotation>
                <documentation>

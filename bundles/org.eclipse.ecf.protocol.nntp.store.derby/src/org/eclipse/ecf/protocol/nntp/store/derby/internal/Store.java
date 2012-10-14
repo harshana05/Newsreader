@@ -446,7 +446,6 @@ public class Store implements IStore {
 		return database;
 	}
 
-	@Override
 	public int getListenerCount() {
 		if (listeners == null)
 			return 0;
